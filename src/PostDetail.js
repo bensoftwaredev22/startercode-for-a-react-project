@@ -13,7 +13,7 @@ function PostDetail({ postId }) {
     const commentList = comments.map((comment) => {
         return [comment.body];     
     })
-    //[comment.body][index] gives one comment?
+    
 
     return (
         <div>
